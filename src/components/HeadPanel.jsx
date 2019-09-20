@@ -44,7 +44,7 @@ export default class HeaderPanel extends Component {
           </label>
           <ul className="hidden-menu">
             <li><img src={avatar} width="189" height="255" alt="lorem"/></li>
-            <li><img src={`http://localhost:3000/${avatar}`} width="189" height="255" alt="lorem"/></li>
+            <li><img src={`https://simplchat.herokuapp.com/${avatar}`} width="189" height="255" alt="lorem"/></li>
             <li><NavLink activeClassName="active" exact to="/">Главная</NavLink></li>
             <li><NavLink activeClassName="active" to="/profile">О профиле</NavLink></li>
           </ul>
